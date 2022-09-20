@@ -1,0 +1,418 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fbfbfb;
+  background-color: #191919;
+}
+/* reusable grid */
+.container {
+  max-width: 144rem;
+  padding: 0 4.8rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+}
+
+.grid-2col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-col {
+  grid-template-rows: 1fr 1fr;
+  column-gap: 6.4rem;
+}
+/* Header */
+
+.header {
+  background-color: #191919;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem 4.8rem;
+}
+
+.header-text {
+  font-size: 3.2rem;
+  color: #00cba0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+  font-size: 2.4rem;
+}
+
+.nav-list-link:link,
+.nav-list-link:visited {
+  text-decoration: none;
+  color: #fbfbfb;
+  transition: all 300ms;
+}
+
+.nav-list-link:hover,
+.nav-list-link:active {
+  text-decoration: none;
+  color: #00cba0;
+}
+
+/* ................. */
+
+.hero-section {
+  margin-top: 17rem;
+  background-color: #191919;
+  padding: 0 4.8rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 55fr 50fr;
+  column-gap: 3.2rem;
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.I-am {
+  font-size: 1.6rem;
+}
+
+.primary-heading {
+  font-size: 8rem;
+  font-weight: 700;
+}
+
+.peeradon-career {
+  font-size: 3.2rem;
+  color: #dedede;
+}
+
+.description {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #dedede;
+}
+
+.description-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+
+.btn-contact-me {
+  font-size: 4.8rem;
+  text-decoration: none;
+  color: #21e7bc;
+  border: 0.3rem solid #00cba0;
+  border-radius: 5px;
+  text-align: center;
+  width: fit-content;
+  padding: 0.8rem 1.6rem;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.btn-contact-me:hover,
+.btn-contact-me:active {
+  color: #fbfbfb;
+  border-radius: 5px;
+
+  background-color: #00cba0;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+/* About me */
+.aboutme-section {
+  padding: 20rem 4.8rem;
+
+  background-color: #1d1d25;
+}
+
+.img-aboutme-box {
+  width: 48.6rem;
+  height: 54.9rem;
+  background-color: #00cba0;
+  border-radius: 3.2rem;
+  overflow: clip;
+}
+
+.img-aboutme {
+  width: 100%;
+}
+
+.aboutme-container {
+  display: flex;
+  flex-direction: column;
+  width: 78.8rem;
+  gap: 4.8rem;
+  padding: 3.2rem;
+  color: #1d1d25;
+  background-color: #00cba0;
+  border-radius: 3.2rem;
+}
+
+.heading-aboutme {
+  font-size: 6.4rem;
+  font-weight: 700;
+}
+
+.aboutme-text {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.exprirence {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.heading-exprirence {
+  font-weight: 700;
+  font-size: 3.6rem;
+}
+
+.aboutme-text-small {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.aboutme-list-box {
+  margin-top: 0.8rem;
+}
+
+.aboutme-list {
+  list-style: none;
+  font-size: 2rem;
+}
+
+span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* What I Da */
+
+.what-i-do-section {
+  padding: 16rem 6.4rem 20rem 6.4rem;
+  color: #00cba0;
+}
+
+.what-i-do-box {
+  display: flex;
+  flex-direction: column;
+
+  gap: 3.2rem;
+  padding: 1.6rem 1.6rem;
+}
+
+.icon {
+  font-size: 8rem;
+}
+
+.what-i-do-heading {
+  font-size: 8.4rem;
+}
+
+.what-i-do-description-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.what-i-do-description {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.what-i-do-description-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.what-i-do-description-list {
+  list-style: none;
+}
+
+.ui-design-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 0 1.6rem;
+}
+
+.ui-design-description {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.fontend-deverlop-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 0 1.6rem;
+}
+
+.fontent-deverlop-description {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+/* Portfolio */
+
+.portfolio-section {
+  background-color: #1d1d25;
+  color: #00cba0;
+}
+
+.portfolio-heading {
+  font-size: 9.6rem;
+}
+
+.img-portfolio {
+  box-shadow: 0 0 2.4rem;
+}
+
+.img-portfolio img {
+  width: 100%;
+  transition: all 300ms;
+  filter: saturate(0%);
+}
+
+.img-portfolio img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 3.2rem 1.2rem;
+  filter: saturate(100%);
+}
+
+.portfolio-grid {
+  max-width: 114rem;
+  row-gap: 3.2rem;
+  column-gap: 3.2rem;
+  justify-items: center;
+  margin-bottom: 3.2rem;
+}
+
+.portfolio-container {
+  padding: 3.2rem 6.4rem 9.6rem 6.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+  align-items: center;
+}
+
+.btn-seemore {
+  font-size: 4.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  padding: 0.8rem 1.6rem;
+  text-decoration: none;
+  color: #21e7bc;
+  border: 1px solid #00cba0;
+  border-radius: 6px;
+  transition: all 300ms;
+}
+
+.btn-seemore:hover,
+.btn-seemore:active {
+  color: #fbfbfb;
+  background-color: #00cba0;
+  border: 1px solid #00cba0;
+  border-radius: 6px;
+}
+
+/* footer */
+.footer {
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.logo-col {
+  font-size: 2.4rem;
+}
+
+.footer-col {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.footer-heading {
+  font-size: 2.4rem;
+  color: #dedede;
+}
+
+.footer-link {
+  color: #dedede;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #00cba0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.address {
+  font-size: 1.6rem;
+  font-style: normal;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.social-list li {
+  margin-bottom: 0.8rem;
+}
+
+.social-link {
+  color: #dedede;
+  text-decoration: none;
+}
+
+.social-link:hover,
+.social-link:active {
+  color: #00cba0;
+}
