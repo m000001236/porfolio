@@ -306,6 +306,7 @@ span {
 }
 
 .img-portfolio img {
+  height: 100%;
   width: 100%;
   transition: all 300ms;
   filter: saturate(0%);
