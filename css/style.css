@@ -169,6 +169,15 @@ body {
 
 .img-aboutme {
   width: 100%;
+  transition: all 300ms;
+  filter: saturate(0%);
+}
+
+.img-aboutme:hover,
+.img-aboutme:active {
+  transform: scale(1.2);
+  width: 100%;
+  filter: grayscale(0%);
 }
 
 .aboutme-container {
