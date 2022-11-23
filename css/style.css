@@ -236,8 +236,9 @@ span {
 /* Portfolio */
 
 .portfolio-section {
-  background-color: #1d1d25;
+  background-color: rgba(25, 25, 25);
   color: #00cba0;
+  padding-bottom: 4.8rem;
 }
 
 .portfolio-heading {
@@ -406,6 +407,7 @@ span {
 
 /* footer */
 .footer {
+  background-color: #1d1d25;
   margin: 0 auto;
   padding: 3.2rem;
 }
@@ -485,6 +487,7 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .flex-gap {
