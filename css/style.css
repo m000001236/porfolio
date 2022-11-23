@@ -352,13 +352,13 @@ span {
 .card--2 .card__img,
 .card--2 .card__img--hover {
   filter: saturate(0%);
-  background-image: url("/porfolio/photo/Water\ +_.webp");
+  background-image: url("/porfolio/photo/Water.webp");
 }
 
 .card--3 .card__img,
 .card--3 .card__img--hover {
   filter: saturate(0%);
-  background-image: url("/porfolio/photo/Mediaplannrer\ posterr.webp");
+  background-image: url("/porfolio/photo/Poser1.webp");
 }
 .card--4 .card__img,
 .card--4 .card__img--hover {
