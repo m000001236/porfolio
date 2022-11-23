@@ -346,24 +346,24 @@ span {
 .card--1 .card__img,
 .card--1 .card__img--hover {
   filter: saturate(0%);
-  background-image: url("/porfolio/photo/Guber-02.webp");
+  background-image: url("porfolio/photo/Guber-02.webp");
 }
 
 .card--2 .card__img,
 .card--2 .card__img--hover {
   filter: saturate(0%);
-  background-image: url("/porfolio/photo/Water.webp");
+  background-image: url("porfolio/photo/Water.webp");
 }
 
 .card--3 .card__img,
 .card--3 .card__img--hover {
   filter: saturate(0%);
-  background-image: url("/porfolio/photo/Poser1.webp");
+  background-image: url("porfolio/photo/Poser1.webp");
 }
 .card--4 .card__img,
 .card--4 .card__img--hover {
   filter: saturate(0%);
-  background-image: url("/porfolio/photo/5.webp");
+  background-image: url("porfolio/photo/5.webp");
 }
 .card__img--hover {
   transition: 200ms all ease-out;
