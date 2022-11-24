@@ -125,6 +125,8 @@ body {
 }
 
 .cta-btn {
+  font-family: ethnocentric, sans-serif;
+  font-weight: 700;
   border-radius: 5px;
   padding: 0.8rem 1.2rem 0.8rem 1.2rem;
   background-color: rgb(13, 226, 155);
@@ -132,4 +134,14 @@ body {
   font-size: 3.2rem;
   color: #070707;
   text-decoration: none;
+}
+
+.gd-img img {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.wire-frame {
+  grid-column: 1 / -1;
 }
