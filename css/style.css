@@ -203,6 +203,9 @@ body {
 }
 
 .heading-aboutme {
+  font-family: ethnocentric, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 6.4rem;
   font-weight: 700;
 }
@@ -260,6 +263,9 @@ span {
 }
 
 .portfolio-heading {
+  font-family: ethnocentric, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 9.6rem;
 }
 
@@ -404,6 +410,9 @@ span {
 }
 
 .btn-seemore {
+  font-family: ethnocentric, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 4.8rem;
   text-align: center;
   text-transform: uppercase;
@@ -444,6 +453,8 @@ span {
 }
 
 .footer-heading {
+  font-family: ethnocentric, sans-serif;
+  font-weight: 700;
   font-size: 2.4rem;
   color: #dedede;
 }
@@ -489,6 +500,9 @@ span {
 }
 
 .skills-header {
+  font-family: ethnocentric, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 4.8rem;
   font-weight: 600;
 }
