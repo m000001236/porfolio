@@ -409,6 +409,10 @@ span {
   opacity: 1;
 }
 
+.card__tittle {
+  margin-top: 1.2rem;
+}
+
 .btn-seemore {
   font-family: ethnocentric, sans-serif;
   font-weight: 700;
