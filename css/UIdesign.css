@@ -91,7 +91,7 @@ body {
 
 .ui {
   grid-template-columns: 1fr 1fr;
-  padding: 4.8rem 0rem 4.8rem 2.4rem;
+  padding: 4.8rem;
 }
 
 .ui-img {
@@ -136,12 +136,159 @@ body {
   text-decoration: none;
 }
 
-.gd-img img {
-  width: 80%;
-  justify-content: center;
+.gd-img {
   align-items: center;
+  justify-items: center;
+}
+
+.gd1 {
+  width: 90%;
+}
+
+.gd2 {
+  width: 40%;
+}
+
+.gd3 {
+  width: 60%;
+}
+
+.gd4 {
+  width: 60%;
+}
+.gd5 {
+  width: 70%;
+}
+
+.gd6 {
+  width: 70%;
 }
 
 .wire-frame {
   grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 2.4rem;
+}
+
+.wire-frame-hd {
+  font-family: ethnocentric, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 6.2rem;
+}
+
+.MKT {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.MKT-Hd {
+  grid-column: 1/ -1;
+  padding: 2.4rem;
+  font-size: 6.2rem;
+  font-family: ethnocentric, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.MKT-img-box img {
+  width: 80%;
+}
+
+.MKT-section {
+  padding: 4.8rem;
+  margin-bottom: 4.8rem;
+}
+
+.description-list {
+  margin-top: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  font-size: 2.4rem;
+  padding-left: 4.8rem;
+  line-height: 1.8rem;
+}
+
+.btn-mkt {
+  padding: 2.4rem;
+}
+
+.footer {
+  background-color: #1d1d25;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.logo-col {
+  font-size: 2.4rem;
+}
+
+.footer-col {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.footer-heading {
+  font-family: ethnocentric, sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #dedede;
+}
+
+.footer-link {
+  color: #dedede;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #00cba0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.address {
+  font-size: 1.6rem;
+  font-style: normal;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.social-list li {
+  margin-bottom: 0.8rem;
+}
+
+.social-link {
+  color: #dedede;
+  text-decoration: none;
+}
+
+.social-link:hover,
+.social-link:active {
+  color: #00cba0;
+}
+
+.ct1 {
+  width: 80%;
+}
+
+.ct2 {
+  width: 80%;
+}
+
+.ct3 {
+  width: 80%;
 }

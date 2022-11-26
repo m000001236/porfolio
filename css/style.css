@@ -172,7 +172,7 @@ body {
 
 .img-aboutme-box {
   width: 48.6rem;
-  height: 54.9rem;
+  height: 57rem;
   background-color: #00ecb9;
   border-radius: 3.2rem;
   overflow: clip;
@@ -213,7 +213,7 @@ body {
 .aboutme-text {
   font-size: 2.4rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .exprirence {
