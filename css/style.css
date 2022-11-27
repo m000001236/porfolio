@@ -188,7 +188,7 @@ body {
 .img-aboutme:active {
   transform: scale(1.2);
   width: 100%;
-  filter: grayscale(0%);
+  filter: saturate(100%);
 }
 
 .aboutme-container {
