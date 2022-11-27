@@ -96,6 +96,8 @@ body {
   font-family: ethnocentric, sans-serif;
   font-weight: 700;
   font-size: 3.2rem;
+  padding-left: 2.4rem;
+  font-size: 6.2rem;
 }
 
 .ui {
@@ -111,11 +113,41 @@ body {
   width: 100%;
 }
 
-.ui-header {
+.secondary-ui-header {
+  font-family: ethnocentric, sans-serif;
+  font-weight: 700;
   padding-left: 2.4rem;
-  font-size: 6.2rem;
+  font-size: 3.6rem;
 }
 
+.font {
+  padding-left: 2.4rem;
+  font-size: 3.2rem;
+}
+
+.Design-system {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.colors {
+  color: #1d1d1d;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 2.4rem;
+  font-size: 2.4rem;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+.color1 {
+  background-color: #3edc6a;
+}
+
+.color2 {
+  background-color: #c8fad6;
+}
 .ui-text {
   display: flex;
   flex-direction: column;
@@ -130,7 +162,7 @@ body {
 }
 
 .btn {
-  padding-left: 3.2rem;
+  margin-left: 2rem;
 }
 
 .btn-center {
@@ -252,7 +284,7 @@ body {
 }
 
 .btn-mkt {
-  padding: 2.4rem;
+  padding: 1.2rem;
 }
 
 .footer {
