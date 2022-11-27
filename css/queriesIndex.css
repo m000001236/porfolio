@@ -132,7 +132,7 @@
   }
 
   .aboutme-container {
-    width: 25rem;
+    max-width: 28rem;
   }
 
   .heading-aboutme {
@@ -144,11 +144,11 @@
   }
 
   .img-aboutme {
-    width: 90%;
     filter: saturate(100%);
   }
+
   .img-aboutme-box {
-    width: 24rem;
+    max-width: 20rem;
     height: 20rem;
     background-color: #00ecb9;
     border-radius: 3.2rem;
