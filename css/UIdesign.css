@@ -145,6 +145,10 @@ body {
   margin-top: 4.8rem;
 }
 
+.margin-left {
+  margin-left: 4.8rem;
+}
+
 .cta-btn {
   font-family: ethnocentric, sans-serif;
   font-weight: 700;
