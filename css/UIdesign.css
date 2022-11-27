@@ -275,8 +275,9 @@ body {
 .footer-heading {
   font-family: ethnocentric, sans-serif;
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 4.8rem;
   color: #dedede;
+  margin-bottom: 4.8rem;
 }
 
 .footer-link {
@@ -288,6 +289,10 @@ body {
 .footer-link:hover,
 .footer-link:active {
   color: #00cba0;
+}
+
+.logo-col {
+  font-size: 6.2rem;
 }
 
 .contact {
@@ -333,4 +338,8 @@ body {
 
 .Certification {
   margin-bottom: 8rem;
+}
+
+.center {
+  text-align: center;
 }
